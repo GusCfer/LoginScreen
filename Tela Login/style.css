@@ -1,0 +1,105 @@
+body {
+    background-color: rgb(26, 20, 36);
+    font-family: 'Jetbrains Mono', sans-serif;
+    display: flex;
+    font-display: flex;
+    position: relative;;
+}
+.lefticons{
+    width: 382pt;
+    height: 289pt;
+    position: relative;
+    display: relative;
+}
+.txt1body, .txt2body{
+    color: rgb(111, 8, 255);
+    display: flex;
+    font-size: 25px;
+    z-index: 2;
+    font-weight: 1500;
+    margin: 0;
+}
+.txt1body{
+    color: #8a8a8a;
+    margin-left: 25%;
+    margin-top: 10%;
+}
+.txt2body{
+    margin-top: 3px;
+    margin-left: 50%;
+    z-index: 2;
+    position: absolute;
+}
+img{
+    height: 300px;
+    margin-left:20%;
+    margin-top:1%;
+    position:relative;
+    z-index:1;
+}
+/*CONTAINER ------------------------------*/
+.container {
+    width: 28%;
+    height: 80%;
+    background-color: rgb(31, 29, 51);
+    position: absolute;
+    margin-left: 60%;
+    margin-top: 8%;
+    border-radius: 5%;
+    box-shadow: 0 2px 10px rgb(12, 12, 12);
+    text-align: center;
+    color:rgb(111, 8, 255);
+}
+
+.logintittle {
+    margin-top: 15%;
+}
+
+.inputuser, .inputpassword {
+    border: none;
+    font-size: 10px;
+    border-radius: 5%;
+    height: 7%;
+    width: 80%;
+    background: rgb(28, 26, 47);
+    box-shadow: 0 1px 2px 1px rgb(12, 12, 12);
+    color: white;
+    margin-bottom: 5px;
+    -webkit-border-radius: 5px; /* Para compatibilidade com navegadores mais antigos */
+    -moz-border-radius: 5px
+}
+
+.texts1, .texts2 {
+    color: #615f5f;
+    margin: 0;
+    font-size: 9px;
+    margin-bottom: 5px;
+}
+
+.texts1 {
+    margin-right: 65%;
+}
+
+.texts2 {
+    margin-right: 70%;
+}
+
+.buttonlogin {
+    margin-top: 12px;
+    border-radius: 6px;
+    border: 0;
+    height: 7%;
+    width: 80%;
+    background-color: rgb(93, 5, 255);
+     box-shadow: 0 1px 2px 1px rgb(12, 12, 12);
+}
+
+.buttonlogin:hover {
+    background-color: rgb(85, 144, 69);
+    color: rgb(255, 255, 255);
+}
+.registro{
+    margin-top: 16px;
+    color: #4d4a5f;
+    font-size: 10px;
+}
